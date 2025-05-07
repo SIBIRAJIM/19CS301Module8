@@ -1,7 +1,8 @@
 # 19CS301Module8
 EXPTNO.8a Program to find Find the simple interest
 
-### Aim: To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
+### Aim: 
+To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
 ### Algorithm:
 
 STEP 1: Start.
@@ -16,6 +17,9 @@ STEP 7: Stop.
 
 ### Program:
 ```
+# Reg.No-212223050048
+# Name-SIBIRAJI M
+# Write your code here
 def simpleInterest(p,t,r):
       si = p*t*r/100
        return si
@@ -30,11 +34,13 @@ t = eval(input())
 
 
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus, the given program is implemented and executed successfully .
 
 EXPTNo.8b program to display elements from a list, present at odd index positions
 
-### Aim: To Write a python program to display elements from a list, present at odd index positions
+### Aim: 
+To Write a python program to display elements from a list, present at odd index positions
 ### Algorithm:
 
 STEP 1: Start.
@@ -53,6 +59,9 @@ STEP 7: Stop.
 
 ### Program:
 ```
+# Reg.No-212223050048
+# Name-SIBIRAJI M
+# Write your code here
 def odd(a):
          l=[]
           for i in range(a):
@@ -67,12 +76,13 @@ odd(a)
 ### Output:
 ![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+Thus, the given program is implemented and executed successfully .
  
 
 EXPT NO>8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
-### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
-         in a list and find the score of the runner-up.
+### Aim: 
+To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them in a list and find the score of the runner-up.
 
 
 ### Algorithm:
@@ -90,12 +100,17 @@ STEP 8: Stop.
 
 
 ### Program:
-```if  name	== '   main    ':
+```
+# Reg.No-212223050048
+# Name-SIBIRAJI M
+# Write your code here
+if  name	== '   main    ':
           n = int(input())
           arr = map(int, input().split())
           arr2 = list(set(arr))
           arr2.sort()
 print(arr2[-2])
+```
 
 ### Output:
  
@@ -103,12 +118,14 @@ print(arr2[-2])
 
  
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+ Thus, the given program is implemented and executed successfully .
  
 
 
 EX: 8.d program to square all the even numbers and cube all odd numbers from a list of integers
-### Aim: To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
+### Aim: 
+To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
 
 
 ### Algorithm:
@@ -125,6 +142,9 @@ STEP 8 : Stop.
 
 ### Program:
 ```
+# Reg.No-212223050048
+# Name-SIBIRAJI M
+# Write your code here
 cube = lambda x: x**2 if x%2==0 else x**3
 def fun(f,l):
      l1=[]
@@ -139,7 +159,8 @@ f,l = int(input()),int(input())
 
 
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+Thus, the given program is implemented and executed successfully .
  
 
 
